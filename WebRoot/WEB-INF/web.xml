@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>OutputExcel</servlet-name>
+    <servlet-class>BOS.Servlet.OutputExcel</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MongodbServlet</servlet-name>
+    <servlet-class>BOS.Servlet.MongodbServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>SearchServlet</servlet-name>
+    <servlet-class>BOS.Servlet.SearchServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>WeatherServlet</servlet-name>
+    <servlet-class>BOS.Servlet.WeatherServlet</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommonServlet</servlet-name>
+    <servlet-class>BOS.Servlet.CommonServlet</servlet-class>
+  </servlet>
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>OutputExcel</servlet-name>
+    <url-pattern>/OutputExcel</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MongodbServlet</servlet-name>
+    <url-pattern>/MongodbServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>SearchServlet</servlet-name>
+    <url-pattern>/SearchServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>WeatherServlet</servlet-name>
+    <url-pattern>/WeatherServlet</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommonServlet</servlet-name>
+    <url-pattern>/CommonServlet</url-pattern>
+  </servlet-mapping>
+
+</web-app>
